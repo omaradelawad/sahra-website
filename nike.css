@@ -1,0 +1,125 @@
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+
+}  
+section{
+    width: 100vw;
+    height: 100vh; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.425),rgba(0, 0, 0, 0.308)) ,url(background.png); 
+    background-size: cover; 
+    background-position: center ;
+    display: flex; 
+    flex-flow: column;
+    justify-content: space-around;
+    padding: 0 20px ;
+}  
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px 0 ; 
+    font-family: sans-serif ;  
+} 
+nav img {
+    width: 50px ; 
+    margin-left: 70px ;
+}  
+nav ul {
+    margin-right: 40px ;
+}
+nav li {
+    display: inline ; 
+} 
+nav li a {
+    margin: 0 30px ; 
+    text-decoration: none;
+    color: white ; 
+}
+.boxes{
+    width: 500px;
+    height: 60vh ;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly; 
+    align-items: center ; 
+}  
+main{ 
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ; 
+    margin: auto; 
+    translate: 0px -10px;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-image: url(40509e73-6d4b-48b2-b12f-a45bf229f2e7.png); 
+    background-size: cover;
+    background-position: center; 
+    border-radius: 15px ; 
+    transition: .5s ;
+}   
+.box2{
+    width: 200px;
+    height: 200px;
+    background-image: url(pic-2.png); 
+    background-size: cover;
+    background-position: center; 
+    border-radius: 15px ; 
+    transition: .5s ;
+}  
+.box3{
+    width: 200px;
+    height: 200px;
+    background-image: url(pic-3.png); 
+    background-size: cover;
+    background-position: center; 
+    border-radius: 15px ; 
+    transition: .5s ;
+}   
+.box4{
+    width: 200px;
+    height: 200px;
+    background-image: url(pic-4.png); 
+    background-size: cover;
+    background-position: center; 
+    border-radius: 15px ; 
+    transition: .5s ;
+}  
+.box1:hover{
+    translate: 0px -10px ;
+}  
+.box2:hover{
+    translate: 0px -10px ;
+} 
+.box3:hover{
+    translate: 0px -10px ;
+} 
+.box4:hover{
+    translate: 0px -10px ;
+} 
+.content{
+    width: 400px ; 
+    font-family: sans-serif; 
+    color: white ;
+} 
+.content h1 {
+    font-size: 80px ; 
+    text-transform: uppercase ;
+} 
+.content a {
+    background-color: rgb(80, 0, 0);  
+    display: inline-block ; 
+    text-decoration: none ; 
+    margin-top: 10px ;
+    padding: 6px 12px ; 
+    border-radius: 10px ; 
+    color: white ; 
+    background-image: linear-gradient(rgb(0, 255, 242)(0, 0, 255, 0.603),rgb(44, 44, 212));  
+    transition: .2s ;
+} 
+.content a:hover{
+    translate: 3px ; 
+}
